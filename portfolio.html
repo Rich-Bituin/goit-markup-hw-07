@@ -21,17 +21,17 @@
     <section class="header-section">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo link" href="/goit-markup-hw-06/index.html"><span class="logo-web">Web</span><span
+          <a class="logo link" href="/goit-markup-hw-07/index.html"><span class="logo-web">Web</span><span
               class="logo-studio">Studio</span></a>
           <ul class="header-nav-list">
             <li class="header-nav-list-item">
-              <a class="header-nav-list-link link" href="/goit-markup-hw-06/index.html">Studio</a>
+              <a class="header-nav-list-link link" href="/goit-markup-hw-07/index.html">Studio</a>
             </li>
             <li class="header-nav-list-item">
-              <a class="header-nav-list-link link active" href="/goit-markup-hw-06/portfolio.html">Portfolio</a>
+              <a class="header-nav-list-link link active" href="/goit-markup-hw-07/portfolio.html">Portfolio</a>
             </li>
             <li class="header-nav-list-item">
-              <a class="header-nav-list-link link" href="/goit-markup-hw-06/">Contacts</a>
+              <a class="header-nav-list-link link" href="/goit-markup-hw-07/">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -39,7 +39,35 @@
           <a class="header-address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="header-address-tel link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
         </address>
-      </div>
+        <button class="mobile-menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg>
+            <use href="/goit-markup-hw-07/images/icons.svg#icon-hamburger-menu"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu-container js-menu-container" id="mobile-menu">
+          <button class="mobile-menu-close js-close-menu">
+            <svg>
+              <use href="/goit-markup-hw-07/images/icons.svg#icon-close">
+            </svg>
+          </button>
+          <nav class="mobile-menu-navigation">
+            <ul class="mobile-menu-nav-list">
+              <li class="mobile-menu-nav-list-item">
+                <a class="mobile-menu-nav-list-link link" href="/goit-markup-hw-07/index.html">Studio</a>
+              </li>
+              <li class="mobile-menu-nav-list-item">
+                <a class="mobile-menu-nav-list-link link active" href="/goit-markup-hw-07/portfolio.html">Portfolio</a>
+              </li>
+              <li class="mobile-menu-nav-list-item">
+                <a class="mobile-menu-nav-list-link link" href="/goit-markup-hw-07/">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-address">
+            <a class="mobile-menu-address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="mobile-menu-address-tel link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+          </address>
+        </div>
     </section>
   </header>
 
@@ -191,7 +219,7 @@
   <footer class="footer">
     <div class="container footer-container">
       <div class="footer-main">
-        <a class="logo link" href="/goit-markup-hw-06/index.html"><span class="logo-web">Web</span><span
+        <a class="logo link" href="/goit-markup-hw-07/index.html"><span class="logo-web">Web</span><span
             class="footer-logo">Studio</span></a>
         <p class="footer-logo-description">
           Increase the flow of customers and<br />sales for your business with digital<br />marketing & growth
@@ -204,28 +232,28 @@
           <li class="footer-socials-link-list">
             <a href="#" class="footer-socials-link-list-address">
               <svg>
-                <use href="/goit-markup-hw-06/images/icons.svg#icon-instagram-icon" />
+                <use href="/goit-markup-hw-07/images/icons.svg#icon-instagram-icon" />
               </svg>
             </a>
           </li>
           <li class="footer-socials-link-list">
             <a href="#" class="footer-socials-link-list-address">
               <svg>
-                <use href="/goit-markup-hw-06/images/icons.svg#icon-twitter-icon" />
+                <use href="/goit-markup-hw-07/images/icons.svg#icon-twitter-icon" />
               </svg>
             </a>
           </li>
           <li class="footer-socials-link-list">
             <a href="#" class="footer-socials-link-list-address">
               <svg>
-                <use href="/goit-markup-hw-06/images/icons.svg#icon-facebook-icon" />
+                <use href="/goit-markup-hw-07/images/icons.svg#icon-facebook-icon" />
               </svg>
             </a>
           </li>
           <li class="footer-socials-link-list">
             <a href="#" class="footer-socials-link-list-address">
               <svg>
-                <use href="/goit-markup-hw-06/images/icons.svg#icon-linkedin-icon" />
+                <use href="/goit-markup-hw-07/images/icons.svg#icon-linkedin-icon" />
               </svg>
             </a>
           </li>
@@ -237,12 +265,14 @@
         <button class="footer-newsletter-subscription" type="submit">
           <Span>Subscribe</Span>
           <svg class="footer-newsletter-subscription-icon">
-            <use href="/goit-markup-hw-06/images/icons.svg#icon-telegram" />
+            <use href="/goit-markup-hw-07/images/icons.svg#icon-telegram" />
           </svg>
         </button>
       </div>
     </div>
   </footer>
+
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
