@@ -240,14 +240,12 @@ img {
   line-height: 1.11em;
   letter-spacing: 0.72px;
 }
-
 .mobile-menu-address {
   display: flex;
   flex-direction: column;
   gap: 40px;
   margin-top: 284px;
 }
-
 .mobile-menu-address-tel {
   color: var(--color-iris);
   font-size: 36px;
@@ -255,7 +253,6 @@ img {
   line-height: 1.11em;
   letter-spacing: 0.72px;
 }
-
 .mobile-menu-address-mail {
   color: var(--color-slate);
   font-size: 20px;
@@ -263,22 +260,18 @@ img {
   line-height: 1.2em;
   letter-spacing: 0.4px;
 }
-
 .mobile-team-links {
   display: flex;
   flex-direction: row;
   gap: 56px;
   margin-top: 48px;
 }
-
 .mobile-team-links-list-address svg {
   width: 24px;
   height: 24px;
 }
-
 .section {
   padding: 96px 0;
-
   @media screen and (min-width: 1158px) {
     padding: 120px 0;
   }
@@ -516,8 +509,6 @@ img {
   gap: 24px;
   margin-bottom: 32px;
 }
-
-.team-links-list-address {
 .team-links-list-address,
 .mobile-team-links-list-address {
   display: flex;
@@ -585,6 +576,7 @@ img {
   transition-duration: var(--transition-duration);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio-selection-list {
   display: flex;
   flex-wrap: wrap;
@@ -592,21 +584,16 @@ img {
   row-gap: 48px;
   margin-top: 72px;
 }
-
 .portfolio-selection-list-items {
-  flex-basis: calc((100% - 48px) / 3);
   flex-basis: 100%;
   cursor: pointer;
-
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 24px) / 2);
   }
-
   @media screen and (min-width: 1158px) {
     flex-basis: calc((100% - 48px) / 3);
   }
 }
-
 .portfolio-selection-list-figure {
   width: 100%;
   height: 300px;
@@ -843,10 +830,8 @@ img {
 .modal.is-hidden .modal-content {
   transform: scale(0.5);
 }
-
 .modal-content {
   background-color: var(--color-dairy);
-  width: 408px;
   width: 392px;
   height: 584px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -859,13 +844,11 @@ img {
   padding-top: 72px;
   padding-left: 24px;
   padding-right: 24px;
-
   @media screen and (min-width: 768px) {
     width: 408px;
     height: 584px;
   }
 }
-
 .modal-close {
   display: flex;
   justify-content: center;
